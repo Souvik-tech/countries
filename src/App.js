@@ -50,8 +50,8 @@ function App() {
         {filteredCountries.length > 0 ? (
           filteredCountries.map((country) => (
             <div className="countryCard" key={country.cca3}>
-              <figure>
-                <img
+              <figure className="">
+                <img 
                   className="card-img"
                   src={country.flags.png}
                   alt={`${country.name.common} flag`}
