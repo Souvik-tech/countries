@@ -17,6 +17,14 @@ code {
   flex-wrap: wrap;
   justify-content: center;
 }
+.card-img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.countryCard{
+  margin: 10px;
+}
 .each-card{
   border: 1px solid #000;
   border-radius: 20px;
